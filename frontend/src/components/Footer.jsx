@@ -1,4 +1,9 @@
-<footer id="footer">
+import React from 'react'
+import './Footer.css';
+const Footer = () => {
+  return (
+   <div id="footer">
+
   <div className="container">
     <div className="banner">
       <div className="left">Uttam Yadav</div>
@@ -16,4 +21,9 @@
       </div>
     </div>
   </div>
-</footer>
+</div>
+  )
+}
+
+export default Footer
+

@@ -1,7 +1,7 @@
 const { createRouter } = require("../utils/routerHelper");
 const HttpMethods = require("../utils/httpMethods");
 
-const { chatbotHandler } = require("../controllers/chatbotController");
+const { chatbotHandler } = require("../controllers/chatBotController");
 
 const routes = [
   {
