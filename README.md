@@ -47,10 +47,12 @@ MyTrip/
 ##frontend 
 cd frontend
 npm create vite@latest ./
+npm run dev
 
 ##backend 
 cd backend
-npm init -y 
+npm init -y
+npm run start
 
 
 
