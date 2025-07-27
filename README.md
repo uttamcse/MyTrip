@@ -42,3 +42,17 @@ MyTrip/
 └── package.json          # Project metadata
 
 
+## Install dependencies
+
+##frontend 
+cd frontend
+npm create vite@latest ./
+
+##backend 
+cd backend
+npm init -y 
+
+
+
+
+
