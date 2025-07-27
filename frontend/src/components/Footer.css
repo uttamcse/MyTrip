@@ -1,0 +1,54 @@
+footer {
+  background: #f9f9f9; /* Light color */
+  color: #333;
+  padding: 20px 0;
+  border-top: 1px solid #ddd;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.banner:last-child {
+  border-bottom: none;
+}
+
+.left {
+  font-size: 16px;
+  font-weight: bold;
+  color: #007bff; /* Highlighted name */
+}
+
+.right p,
+.left p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+footer p {
+  margin: 4px 0;
+}
+
+@media (max-width: 768px) {
+  .banner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .left,
+  .right {
+    margin: 5px 0;
+  }
+}
